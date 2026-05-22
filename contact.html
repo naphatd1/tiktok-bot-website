@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - TikTok Bot</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 600px;
+            background: white;
+            padding: 60px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #667eea;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        .contact-info {
+            margin-bottom: 30px;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        .contact-item .icon {
+            font-size: 2em;
+            margin-right: 20px;
+        }
+        .contact-item .info h3 {
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+        .contact-item .info p {
+            color: #666;
+        }
+        .contact-item .info a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        .contact-item .info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← กลับหน้าหลัก</a>
+        
+        <h1>Contact Us</h1>
+        
+        <div class="contact-info">
+            <div class="contact-item">
+                <div class="icon">📧</div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p><a href="mailto:support@bottiktok.com">support@bottiktok.com</a></p>
+                </div>
+            </div>
+            
+            <div class="contact-item">
+                <div class="icon">💬</div>
+                <div class="info">
+                    <h3>Support</h3>
+                    <p>For technical support and inquiries</p>
+                </div>
+            </div>
+            
+            <div class="contact-item">
+                <div class="icon">🐛</div>
+                <div class="info">
+                    <h3>Bug Reports</h3>
+                    <p>Report issues on our GitHub repository</p>
+                </div>
+            </div>
+            
+            <div class="contact-item">
+                <div class="icon">📚</div>
+                <div class="info">
+                    <h3>Documentation</h3>
+                    <p>Check our README and setup guides</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
